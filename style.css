@@ -1,0 +1,25 @@
+/* Custom Styles for Infratrade Limited */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+/* Ensure break words work properly */
+.break-all {
+  word-break: break-all;
+}
+
+@media (min-width: 640px) {
+  .sm\:break-normal {
+    word-break: normal;
+  }
+}
